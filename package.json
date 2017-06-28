@@ -1,13 +1,13 @@
 {
-  "name": "bs58check",
+  "name": "ripple-bs58check",
   "version": "2.0.2",
   "description": "A straightforward implementation of base58-check encoding",
   "keywords": [
     "base",
     "base58",
     "base58check",
-    "bitcoin",
-    "bs58",
+    "ripple",
+    "ripple-bs58",
     "check",
     "checksum",
     "decode",
@@ -16,9 +16,9 @@
     "encoding",
     "litecoin"
   ],
-  "homepage": "https://github.com/bitcoinjs/bs58check",
+  "homepage": "https://github.com/you21979/node-ripple-bs58check",
   "bugs": {
-    "url": "https://github.com/bitcoinjs/bs58check/issues"
+    "url": "https://github.com/you21979/node-ripple-bs58check/issues"
   },
   "license": "MIT",
   "author": "Daniel Cousens",
@@ -28,7 +28,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bs58check.git"
+    "url": "https://github.com/you21979/node-ripple-bs58check.git"
   },
   "scripts": {
     "coverage-report": "nyc report --reporter=lcov",
@@ -38,7 +38,7 @@
     "unit": "tape test/*.js"
   },
   "dependencies": {
-    "bs58": "^4.0.0",
+    "ripple-bs58": "^4.0.0",
     "create-hash": "^1.1.0"
   },
   "devDependencies": {

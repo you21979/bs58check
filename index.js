@@ -1,6 +1,6 @@
 'use strict'
 
-var base58 = require('bs58')
+var base58 = require('ripple-bs58')
 var createHash = require('create-hash')
 
 // SHA256(SHA256(buffer))
